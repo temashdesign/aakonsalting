@@ -1,0 +1,32 @@
+{
+  "h1": "Оформляем",
+  "h1-2": "ВНЖ в Черногории",
+  "page-header-text": "Бескрайние горы, кристально чистая вода Адриатического моря, ласковое солнце, волшебная природа, старинные города, пропитанные духом многовековой истории, реки вина и божественные яства– всё это Черногория.",
+  "page-header-text-2": "Мы предоставляем широкий спектр услуг, чтобы Черногория стала домом и для Вас!",
+  "page-header-text-2": "Мы предоставляем широкий спектр услуг, чтобы Черногория стала домом и для Вас!",
+  "homesection": {
+    "services": {
+      "maintitle": "ВНЖ Черногории даёт много преимуществ, например:",
+      "service-1": "Возможность постоянно пребывать в стране - без выезда за границу",
+      "service-2": "Возможность не платить туристический налог",
+      "service-3": "Возможность открыть банковский счёт в Черногории и купить авто",
+      "service-4": "Упрощенное получение виз: США, Шенгена, Великобритании",
+      "service-5": "Бесплатная медицина, школа и детский сад",
+      "service-6": "Возможность получить ПМЖ через 5 лет, а потом и паспорт Черногории через 10 лет"
+    }
+  },
+  "title": "Оформляем ВНЖ в Черногории | AA Konsalting",
+  "description": "Оформляем ВНЖ в Черногории",
+  "blog": {
+    "optimized": {
+      "question": "Möchtest du einige Superkräfte entfesseln, um für alle Seiten optimierte Übersetzungen zu haben?",
+      "answer": "Dann schaue dir vielleicht <1>diesen Blogbeitrag</1> an.",
+      "link": "https://locize.com/blog/next-i18next-de/"
+    },
+    "ssg": {
+      "question": "Möchtest du SSG (next export) verwenden?",
+      "answer": "Dann schaue dir vielleicht <1>diesen Blogbeitrag</1> an.",
+      "link": "https://locize.com/blog/next-i18n-statisch/"
+    }
+  }
+}

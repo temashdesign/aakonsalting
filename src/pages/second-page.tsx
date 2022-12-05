@@ -1,8 +1,5 @@
 import Link from 'next/link'
-import type {
-  GetServerSideProps,
-  InferGetServerSidePropsType,
-} from 'next'
+import type { GetServerSideProps, InferGetServerSidePropsType } from 'next'
 
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -22,14 +19,9 @@ const SecondPage = (
   return (
     <>
       <main>
-        <Header
-          heading={t('second-page:h1')}
-          title={t('second-page:title')}
-        />
+        <Header heading={t('second-page:h1')} title={t('second-page:title')} />
         <Link href="/">
-          <button type="button">
-            {t('second-page:back-to-home')}
-          </button>
+          <button type="button">{t('second-page:back-to-home')}</button>
         </Link>
       </main>
       <Footer />
