@@ -7,6 +7,7 @@ import { Parallax } from 'react-scroll-parallax'
 
 import useMediaQuery from '../../hooks/useMediaQuery'
 import pageHeaderBg from '../../public/pageheaderbg.jpg'
+import pageHeaderBgMob from '../../public/pageheaderbg_mob.jpg'
 import leafImg from '../../public/leaf.png'
 import { AnimatedTitle } from './AnimatedTitle'
 import { Logo } from './Logo'
@@ -24,6 +25,7 @@ export const PageHeader: FC<Props> = ({ heading, heading2 }) => {
   const isSmall = useMediaQuery('(max-width: 1200px)')
   // Content parallax
   const contentYOffset = isSmall ? 0 : 8
+  const imageContentYOffset = isSmall ? 0 : -10
 
   return (
     <>
@@ -53,13 +55,23 @@ export const PageHeader: FC<Props> = ({ heading, heading2 }) => {
             transition={{ duration: 1 }}
             className="absolute inset-0 h-full w-full overflow-hidden"
           >
-            <Parallax speed={-10} className="relative h-full w-full">
+            <Parallax
+              speed={imageContentYOffset}
+              className="relative h-full w-full"
+            >
               <Image
                 priority
                 fill
                 src={pageHeaderBg}
                 alt="Picture of the author"
-                className=" z-0 h-full w-full -translate-y-4 scale-105 object-cover object-center"
+                className="z-0 hidden h-full w-full -translate-y-4 object-cover object-center md:block md:scale-105"
+              />
+              <Image
+                priority
+                fill
+                src={pageHeaderBgMob}
+                alt="Picture of the author"
+                className=" z-0 block h-full w-full -translate-y-4 object-cover object-center md:hidden md:scale-105"
               />
             </Parallax>
           </motion.div>
