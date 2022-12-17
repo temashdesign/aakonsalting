@@ -4,14 +4,20 @@
   "page-header-text": "The endless mountains, the crystal clear waters of the Adriatic Sea, the gentle sun, the magical nature, the ancient towns steeped in the spirit of centuries-old history, the rivers of wine and divine delicacies - that's Montenegro.",
   "page-header-text-2": "We provide a wide range of services to make Montenegro your home too!",
   "homesection": {
+    "benefits": {
+      "maintitle": "Montenegro residence permit provide a lot of advantages, for example:",
+      "benefit-1": "Possibility to stay permanently in the country - without going abroad",
+      "benefit-2": "Opportunity not to pay tourist’ tax",
+      "benefit-3": "Opportunity to open a bank account in Montenegro and buy a car",
+      "benefit-4": "Simplified visa application: USA, Schengen, Great Britain",
+      "benefit-5": "Free medicine, school and kindergarten",
+      "benefit-6": "Opportunity get a permanent residence after 5 years, and then a Montenegrin passport after 10 years"
+    }
+  },
+  "homeservices": {
     "services": {
-      "maintitle": "ВНЖ Черногории даёт много преимуществ, например:",
-      "service-1": "Возможность постоянно пребывать в стране - без выезда за границу",
-      "service-2": "Возможность не платить туристический налог",
-      "service-3": "Возможность открыть банковский счёт в Черногории и купить авто",
-      "service-4": "Упрощенное получение виз: США, Шенгена, Великобритании",
-      "service-5": "Бесплатная медицина, школа и детский сад",
-      "service-6": "Возможность получить ПМЖ через 5 лет, а потом и паспорт Черногории через 10 лет"
+      "maintitle-1": "Наши",
+      "maintitle-2": "услуги:"
     }
   },
   "title": "Applying for a Residence permit in Montenegro | AA Konsalting",

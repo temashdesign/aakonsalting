@@ -4,14 +4,20 @@
   "page-header-text": "Beskrajne planine, kristalno čisto more Jadranskog mora, blago sunce, magična priroda, drevni gradovi zasićeni duhom vjekovne istorije, rijeke vina i božanstvena jela - sve je to Crna Gora.",
   "page-header-text-2": "Pružamo širok spektar usluga kako bi Crna Gora postala vaš dom!",
   "homesection": {
+    "benefits": {
+      "maintitle": "Boravišna dozvola u Crnoj Gori pruža mnoge prednosti, na primjer:",
+      "benefit-1": "Mogućnost trajnog boravka u zemlji bez odlaska u inostranstvo",
+      "benefit-2": "Mogućnost plaćanja boravišne takse",
+      "benefit-3": "Mogućnost otvaranja bankovnog računa u Crnoj Gori i kupovine automobile",
+      "benefit-4": "Pojednostavljene vize: SAD, Šengen, UK",
+      "benefit-5": "Besplatni lijekovi, škola i vrtić",
+      "benefit-6": "Mogućnost dobijanja stalnog boravka nakon 5 godina, a zatim crnogorskog pasoša nakon 10 godina"
+    }
+  },
+  "homeservices": {
     "services": {
-      "maintitle": "ВНЖ Черногории даёт много преимуществ, например:",
-      "service-1": "Возможность постоянно пребывать в стране - без выезда за границу",
-      "service-2": "Возможность не платить туристический налог",
-      "service-3": "Возможность открыть банковский счёт в Черногории и купить авто",
-      "service-4": "Упрощенное получение виз: США, Шенгена, Великобритании",
-      "service-5": "Бесплатная медицина, школа и детский сад",
-      "service-6": "Возможность получить ПМЖ через 5 лет, а потом и паспорт Черногории через 10 лет"
+      "maintitle-1": "Наши",
+      "maintitle-2": "услуги:"
     }
   },
   "title": "Издајемо боравишну дозволу у Црној Гори | AA Konsalting",

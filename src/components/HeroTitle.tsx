@@ -20,38 +20,16 @@ export const HeroTitle: FC = () => {
   // Content parallax
   const contentYOffset = isSmall ? 0 : 10
 
-  const variants = isSmall
-    ? {
-        initial: {
-          opacity: 1,
-          y: 0,
-        },
-        animate: {
-          opacity: 1,
-          y: 0,
-        },
-      }
-    : {
-        initial: {
-          opacity: 0,
-          y: 50,
-        },
-        animate: {
-          opacity: 1,
-          y: 0,
-        },
-      }
-
   return (
     <>
       <motion.div
-        initial={variants.initial}
-        animate={variants.animate}
+        initial={isSmall ? { opacity: 0, y: 30 } : { opacity: 0, y: 50 }}
+        animate={isSmall ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
         <div className="relative -mt-[100px] w-full overflow-hidden 2xl:-mt-[250px]">
           <div className=" relative mx-auto mb-24 grid max-w-6xl grid-cols-1 items-center gap-7 rounded-3xl bg-white px-10 pt-16 pb-16 shadow-[0_26px_50px_0px_rgba(42,82,143,0.1)] lg:w-full lg:rounded-2xl lg:p-10 lg:px-20 lg:pt-20 lg:pb-20 2xl:max-w-[1280px]">
-            <div className="absolute left-[calc(50%-30px)] top-[30px] h-[2px] w-[60px] bg-[#DBAEA0] md:top-[50px]"></div>
+            <div className="absolute left-1/2 top-[30px] h-[3px] w-[64px] -translate-x-1/2 bg-ak-gold md:top-[50px]"></div>
             <p className="relative z-10 mx-auto max-w-4xl text-center text-base text-ak-darkblue lg:text-xl">
               {t('page-header-text')}
             </p>
@@ -63,7 +41,7 @@ export const HeroTitle: FC = () => {
               priority
               src={leafImg}
               alt="Picture of the author"
-              className=" absolute -right-24 -right-24 bottom-0 z-0 hidden max-w-[250px] opacity-50 md:block md:opacity-100 2xl:max-w-none "
+              className=" absolute -right-24 bottom-0 z-0 hidden max-w-[250px] opacity-50 md:block md:opacity-100 2xl:max-w-none "
             />
           </div>
         </div>

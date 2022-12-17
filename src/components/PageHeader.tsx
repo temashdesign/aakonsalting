@@ -29,7 +29,7 @@ export const PageHeader: FC<Props> = ({ heading, heading2 }) => {
 
   return (
     <>
-      <div className="relative grid h-[60vh] min-h-[650px] w-full grid-cols-1 items-stretch justify-center bg-ak-darkblue 2xl:h-[70vh] 2xl:min-h-[850px]">
+      <div className="relative grid h-[60vh] min-h-[650px] w-full grid-cols-1 items-stretch justify-center bg-ak-darkblue 2xl:h-[80vh] 2xl:min-h-[850px]">
         <header className="relative z-10 mx-6 max-w-6xl self-start text-center lg:mx-auto lg:w-full 2xl:max-w-7xl">
           <motion.div
             initial={{ opacity: 0 }}
@@ -71,7 +71,7 @@ export const PageHeader: FC<Props> = ({ heading, heading2 }) => {
                 fill
                 src={pageHeaderBgMob}
                 alt="Picture of the author"
-                className=" z-0 block h-full w-full -translate-y-4 object-cover object-center md:hidden"
+                className=" z-0 block h-full w-full -translate-y-4 scale-105 object-cover object-center md:hidden"
               />
             </Parallax>
           </motion.div>

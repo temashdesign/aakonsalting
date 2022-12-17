@@ -13,8 +13,9 @@ import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { LocaleSwitcher } from 'src/components/LocaleSwitcher'
 import { PageHeader } from 'src/components/PageHeader'
-import { Services } from 'src/components/Services'
+import { Benefits } from 'src/components/Benefits'
 import { HeroTitle } from 'src/components/HeroTitle'
+import { Services } from 'src/components/Sevices'
 
 const playfair = Playfair_Display({
   subsets: ['cyrillic', 'latin-ext', 'latin'],
@@ -54,6 +55,7 @@ const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
         <Header title={t('title')} description={t('description')} />
         <PageHeader heading={t('h1')} heading2={t('h1-2')} />
         <HeroTitle />
+        <Benefits />
         <Services />
       </div>
     </ParallaxProvider>
