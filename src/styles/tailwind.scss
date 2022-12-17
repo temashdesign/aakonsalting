@@ -3,21 +3,21 @@
 @import 'tailwindcss/utilities';
 
 body {
-  @apply bg-ak-darkblue;
+  @apply bg-white;
 }
 
 .page-header-title {
-  @apply max-w-3xl;
+  @apply max-w-4xl;
   span:first-child {
-    // @apply px-3;
+    @apply px-0;
     span {
-      @apply font-light drop-shadow-[0_5px_10px_rgba(1,74,159,.7)] md:p-2;
+      @apply text-3xl font-light drop-shadow-[0_5px_10px_rgba(1,74,159,.7)] md:p-2 lg:text-4xl 2xl:text-5xl;
     }
   }
   span:last-child {
-    @apply px-3;
+    @apply px-5 pt-2 pb-3;
     span {
-      @apply p-2 font-extrabold drop-shadow-[0_5px_10px_rgba(1,74,159,.7)];
+      @apply bg-ak-darkblue/70 text-4xl font-black uppercase leading-none drop-shadow-[0_5px_10px_rgba(1,74,159,.7)] lg:text-[48px] 2xl:text-[64px];
     }
   }
 }

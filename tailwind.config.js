@@ -6,10 +6,11 @@ module.exports = {
       colors: {
         'ak-darkblue': '#102D58',
         'ak-blue': '#2E62B0',
-        'ak-gold': '#D0B4A4',
+        'ak-gold': '#F7B66A',
       },
       fontFamily: {
         sans: ['var(--font-raleway)'],
+        serif: ['var(--font-playfair)'],
       },
     },
   },

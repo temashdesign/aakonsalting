@@ -7,16 +7,25 @@ import Head from 'next/head'
 import { useTranslation, Trans } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-import { Raleway } from '@next/font/google'
+import { Raleway, Playfair_Display } from '@next/font/google'
 
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { LocaleSwitcher } from 'src/components/LocaleSwitcher'
 import { PageHeader } from 'src/components/PageHeader'
 import { Services } from 'src/components/Services'
+import { HeroTitle } from 'src/components/HeroTitle'
+
+const playfair = Playfair_Display({
+  subsets: ['cyrillic', 'latin-ext', 'latin'],
+  weight: ['400', '900'],
+  variable: '--font-playfair',
+  display: 'swap',
+})
 
 const raleway = Raleway({
   subsets: ['cyrillic', 'latin-ext', 'latin'],
+  weight: ['400', '700'],
   variable: '--font-raleway',
   display: 'swap',
 })
@@ -39,9 +48,12 @@ const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
 
   return (
     <ParallaxProvider>
-      <div className={`${raleway.variable} w-full font-sans`}>
+      <div
+        className={`${raleway.variable} ${playfair.variable} w-full font-sans `}
+      >
         <Header title={t('title')} description={t('description')} />
         <PageHeader heading={t('h1')} heading2={t('h1-2')} />
+        <HeroTitle />
         <Services />
       </div>
     </ParallaxProvider>
