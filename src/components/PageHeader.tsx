@@ -24,7 +24,7 @@ export const PageHeader: FC<Props> = ({ heading, heading2 }) => {
   // Media query for parallax
   const isSmall = useMediaQuery('(max-width: 1200px)')
   // Content parallax
-  const contentYOffset = isSmall ? 0 : 8
+  const contentYOffset = isSmall ? 4 : 8
   const imageContentYOffset = isSmall ? 0 : -10
 
   return (
@@ -64,14 +64,14 @@ export const PageHeader: FC<Props> = ({ heading, heading2 }) => {
                 fill
                 src={pageHeaderBg}
                 alt="Picture of the author"
-                className="z-0 hidden h-full w-full -translate-y-4 object-cover object-center md:block md:scale-105"
+                className="z-0 hidden h-full w-full -translate-y-4 scale-105 object-cover object-center md:block"
               />
               <Image
                 priority
                 fill
                 src={pageHeaderBgMob}
                 alt="Picture of the author"
-                className=" z-0 block h-full w-full -translate-y-4 object-cover object-center md:hidden md:scale-105"
+                className=" z-0 block h-full w-full -translate-y-4 object-cover object-center md:hidden"
               />
             </Parallax>
           </motion.div>
