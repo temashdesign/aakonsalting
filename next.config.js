@@ -9,6 +9,7 @@ const { esmExternals = false, tsconfigPath } = loadCustomBuildParams()
 const nextConfig = {
   // images: {
   //   unoptimized: true,
+  //   disableStaticImages: true,
   // },
   experimental: {
     esmExternals, // https://nextjs.org/blog/next-11-1#es-modules-support

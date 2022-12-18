@@ -10,8 +10,6 @@ import useMediaQuery from '../../hooks/useMediaQuery'
 import pageHeaderBg from '../../public/pageheaderbg-2.jpg'
 import pageHeaderBg3 from '../../public/pageheaderbg-3.jpg'
 
-console.log(pageHeaderBg3)
-
 import { Service } from './Service'
 
 import serviceImg01 from '../../public/service-img-01.jpg'

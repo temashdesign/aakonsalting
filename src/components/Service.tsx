@@ -14,7 +14,7 @@ import useMediaQuery from '../../hooks/useMediaQuery'
 const Line = motion.div
 
 type Props = {
-  image: string
+  image: string | StaticImageData
   title: string[]
   subtitle: string[]
   panel: string[]
