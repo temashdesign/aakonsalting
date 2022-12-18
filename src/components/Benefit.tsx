@@ -9,6 +9,7 @@ import { AnimatedTitle } from './AnimatedTitleH2'
 import useMediaQuery from '../../hooks/useMediaQuery'
 
 const BenefitItem = motion.li
+const BenefitItemText = motion.p
 const SvgImage = motion.div
 
 type Props = {
@@ -64,6 +65,22 @@ export const Benefit: FC<Props> = ({ icon, heading }) => {
     },
   }
 
+  const TextAnimation = {
+    hidden: {
+      opacity: 0,
+      y: 30,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: 0.6,
+        duration: 1,
+        ease: [0.2, 0.65, 0.3, 0.9],
+      },
+    },
+  }
+
   return (
     <>
       <BenefitItem
@@ -72,12 +89,17 @@ export const Benefit: FC<Props> = ({ icon, heading }) => {
         initial="hidden"
         animate={ctrls}
         variants={CardAnimation}
-        className="flex flex-col items-center justify-center gap-5 rounded-xl bg-white py-24 px-10 text-center shadow-[0_26px_50px_0px_rgba(42,82,143,0.1)]"
+        className="flex flex-col items-center justify-center gap-5 rounded-xl bg-white py-12 px-10 text-center shadow-[0_26px_50px_0px_rgba(42,82,143,0.1)] lg:py-24"
       >
         <SvgImage variants={SvgAnimation}>
           <Image priority src={icon} alt="benefit" className="" />
         </SvgImage>
-        <p className="text-xl font-bold text-ak-darkblue">{heading}</p>
+        <BenefitItemText
+          variants={TextAnimation}
+          className="text-lg font-bold text-ak-darkblue lg:text-xl"
+        >
+          {heading}
+        </BenefitItemText>
       </BenefitItem>
     </>
   )

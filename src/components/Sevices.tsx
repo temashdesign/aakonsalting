@@ -26,27 +26,28 @@ export const Services: FC = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="absolute left-0 top-0 w-full overflow-hidden"
+          className="absolute left-0 top-0 min-h-[50vh] w-full overflow-hidden md:min-h-[40vw] lg:min-h-[40vw] 2xl:min-h-[24vw]"
         >
           <Image
             priority
+            fill
             src={pageHeaderBg}
-            alt="Picture of the author"
-            className="z-0 h-full w-full object-contain object-center"
+            alt="Services"
+            className="z-0 h-full w-full object-cover object-top"
           />
         </motion.div>
 
         <div className="relative mx-auto max-w-7xl">
           <Parallax speed={contentYOffset} className="relative z-10">
             <AnimatedTitle
-              className="mx-auto mt-28 px-6 font-serif text-3xl font-black uppercase text-white lg:text-[64px] lg:leading-[74px]"
+              className="mx-auto px-6 font-serif text-4xl font-black uppercase text-white md:mt-28 lg:text-[64px] lg:leading-[74px]"
               text={[
                 t('homeservices.services.maintitle-1'),
                 t('homeservices.services.maintitle-2'),
               ]}
             />
           </Parallax>
-          <div className="mt-20 grid grid-cols-1 gap-8 px-6  lg:mx-auto 2xl:px-0">
+          <div className="mt-10 grid grid-cols-1 gap-8 px-6 md:mt-20 lg:mx-auto 2xl:px-0">
             <Parallax speed={contentYOffset} className="relative z-10">
               <div className="w-full ">
                 <Disclosure>
