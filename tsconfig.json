@@ -19,7 +19,7 @@
   },
   "include": [
     "next-env.d.ts",
-    "global-types.d.ts",
+    "Global.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "**/*.js",
