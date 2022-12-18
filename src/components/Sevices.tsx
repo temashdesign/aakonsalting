@@ -16,6 +16,7 @@ import serviceImg01 from '../../public/service-img-01.jpg'
 import serviceImg02 from '../../public/service-img-02.jpg'
 import serviceImg03 from '../../public/service-img-03.jpg'
 import serviceImg04 from '../../public/service-img-04.jpg'
+import serviceImg05 from '../../public/service-img-05.jpg'
 
 export const Services: FC = () => {
   const { t } = useTranslation('common')
@@ -118,7 +119,7 @@ export const Services: FC = () => {
           />
         </motion.div>
 
-        <div className="relative mx-auto mb-6 max-w-6xl lg:mt-16">
+        <div className="relative mx-auto max-w-6xl lg:mt-16">
           <div className="grid grid-cols-1 gap-10 px-6 lg:mx-auto 2xl:px-0">
             <div className="service-panel-wsbg w-full ">
               <Service
@@ -141,14 +142,13 @@ export const Services: FC = () => {
           <div className="grid grid-cols-1 gap-10 px-6 lg:mx-auto lg:mt-10 2xl:px-0">
             <div className="w-full ">
               <Service
-                image={serviceImg01}
+                image={serviceImg05}
                 title={[
-                  t('homeservices.service-1.title-1'),
-                  t('homeservices.service-1.title-2'),
+                  t('homeservices.service-5.title-1'),
+                  t('homeservices.service-5.title-2'),
                 ]}
-                subtitle={[t('homeservices.service-1.subtitle')]}
-                paragraph={t('homeservices.service-1.panel-p')}
-                panel={t('homeservices.service-1.panel-ul', {
+                subtitle={[t('homeservices.service-5.subtitle')]}
+                panel={t('homeservices.service-5.panel-ul', {
                   returnObjects: true,
                 })}
                 image_align="left"
