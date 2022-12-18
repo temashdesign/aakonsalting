@@ -21,3 +21,12 @@ body {
     }
   }
 }
+
+.service-panel-wsbg {
+  .service-panel-container {
+    @apply mb-5 lg:mb-10;
+  }
+  .service-panel {
+    @apply lg:pt-28;
+  }
+}

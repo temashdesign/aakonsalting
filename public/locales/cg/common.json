@@ -1,4 +1,6 @@
 {
+  "title": "Registrujemo boravišnu dozvolu u Crnoj Gori | AA Konsalting",
+  "description": "Registrujemo boravišnu dozvolu u Crnoj Gori",
   "h1": "Registrujemo",
   "h1-2": "boravišnu dozvolu u Crnoj Gori",
   "page-header-text": "Beskrajne planine, kristalno čisto more Jadranskog mora, blago sunce, magična priroda, drevni gradovi zasićeni duhom vjekovne istorije, rijeke vina i božanstvena jela - sve je to Crna Gora.",
@@ -14,24 +16,25 @@
       "benefit-6": "Mogućnost dobijanja stalnog boravka nakon 5 godina, a zatim crnogorskog pasoša nakon 10 godina"
     }
   },
-  "homeservices": {
+  "hservicessection": {
     "services": {
-      "maintitle-1": "Наши",
-      "maintitle-2": "услуги:"
+      "maintitle-1": "Naše",
+      "maintitle-2": "usluge:",
+      "button": "Više"
     }
   },
-  "title": "Издајемо боравишну дозволу у Црној Гори | AA Konsalting",
-  "description": "Издајемо боравишну дозволу у Црној Гори",
-  "blog": {
-    "optimized": {
-      "question": "Do you like to unleash some super powers to have all side optimized translations?",
-      "answer": "Then you may have a look at <1>this blog post</1>.",
-      "link": "https://locize.com/blog/next-i18next/"
-    },
-    "ssg": {
-      "question": "Do you want to use SSG (next export)?",
-      "answer": "Then you may have a look at <1>this blog post</1>.",
-      "link": "https://locize.com/blog/next-i18n-static/"
+  "homeservices": {
+    "service-1": {
+      "title-1": "ВНЖ",
+      "title-2": "Черногории",
+      "subtitle": "Оформление",
+      "panel-p": "Подготовка документов и получение/продление ВНЖ по всем возможным вариантам в Черногории, в том числе:",
+      "panel-ul": [
+        "Предоставление почтового адреса для физического лица;",
+        "Предоставление почтового адреса для юридического лица и адреса для фирмы;",
+        "Предоставление бухгалтерский услуг;",
+        "Административное и правовое сопровождение процесса оформления ВНЖ."
+      ]
     }
   }
 }

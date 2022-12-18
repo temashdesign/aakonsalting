@@ -1,4 +1,6 @@
 {
+  "title": "Applying for a Residence permit in Montenegro | AA Konsalting",
+  "description": "Applying for a Residence permit in Montenegro",
   "h1": "Applying for a",
   "h1-2": "Residence permit in Montenegro",
   "page-header-text": "The endless mountains, the crystal clear waters of the Adriatic Sea, the gentle sun, the magical nature, the ancient towns steeped in the spirit of centuries-old history, the rivers of wine and divine delicacies - that's Montenegro.",
@@ -14,24 +16,25 @@
       "benefit-6": "Opportunity get a permanent residence after 5 years, and then a Montenegrin passport after 10 years"
     }
   },
-  "homeservices": {
+  "hservicessection": {
     "services": {
-      "maintitle-1": "Наши",
-      "maintitle-2": "услуги:"
+      "maintitle-1": "Our",
+      "maintitle-2": "services:",
+      "button": "More"
     }
   },
-  "title": "Applying for a Residence permit in Montenegro | AA Konsalting",
-  "description": "Applying for a Residence permit in Montenegro",
-  "blog": {
-    "optimized": {
-      "question": "Do you like to unleash some super powers to have all side optimized translations?",
-      "answer": "Then you may have a look at <1>this blog post</1>.",
-      "link": "https://locize.com/blog/next-i18next/"
-    },
-    "ssg": {
-      "question": "Do you want to use SSG (next export)?",
-      "answer": "Then you may have a look at <1>this blog post</1>.",
-      "link": "https://locize.com/blog/next-i18n-static/"
+  "homeservices": {
+    "service-1": {
+      "title-1": "ВНЖ",
+      "title-2": "Черногории",
+      "subtitle": "Оформление",
+      "panel-p": "Подготовка документов и получение/продление ВНЖ по всем возможным вариантам в Черногории, в том числе:",
+      "panel-ul": [
+        "Предоставление почтового адреса для физического лица;",
+        "Предоставление почтового адреса для юридического лица и адреса для фирмы;",
+        "Предоставление бухгалтерский услуг;",
+        "Административное и правовое сопровождение процесса оформления ВНЖ."
+      ]
     }
   }
 }
