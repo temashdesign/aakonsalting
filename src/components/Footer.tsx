@@ -219,7 +219,7 @@ export const Footer: FC = () => {
                 className=" mx-auto max-w-3xl px-6 text-center font-serif text-3xl  text-ak-darkblue lg:text-[44px] lg:leading-[52px]"
                 text={[t('footer.bottomtitle')]}
               />
-              <ul className="mt-5 grid h-full w-full grid-cols-1 items-center justify-between gap-4 xl:grid-cols-3">
+              <ul className="mt-5 flex h-full w-full flex-col items-center justify-between gap-4 lg:flex-row ">
                 <li className="flex h-full items-center justify-center gap-4">
                   <svg
                     width="35"
@@ -227,6 +227,7 @@ export const Footer: FC = () => {
                     viewBox="0 0 35 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    className="w-8"
                   >
                     <path
                       d="M0 2.6C0.1 2.4 0.1 2.2 0.2 2.1C0.6 0.8 1.7 0 3 0C5.1 0 7.2 0 9.3 0C16.5 0 23.7 0 31 0C32.5 0 33.7 0.9 34.1 2.2C34.2 2.5 34.2 2.8 34.2 3.1C34.2 9 34.2 14.9 34.2 20.9C34.2 22.7 32.9 24 31.1 24C21.8 24 12.6 24 3.3 24C1.6 24 0.5 23.1 0.1 21.5V21.4C0 15.1 0 8.9 0 2.6ZM3.5 2C3.6 2.1 3.7 2.2 3.7 2.2C7.8 6.4 12 10.5 16.1 14.7C16.7 15.3 17.3 15.3 17.9 14.7C22 10.5 26.2 6.4 30.3 2.2C30.4 2.1 30.4 2.1 30.5 2C21.6 2 12.6 2 3.5 2ZM3.5 22C12.6 22 21.6 22 30.7 22C27.8 19.1 25 16.3 22.1 13.5C22 13.6 21.9 13.6 21.9 13.7C21.1 14.5 20.2 15.4 19.4 16.2C18.1 17.5 16.1 17.5 14.8 16.2C14.3 15.7 13.8 15.2 13.3 14.7C12.9 14.3 12.5 13.9 12.1 13.5C9.2 16.3 6.4 19.1 3.5 22ZM2 3.5C2 9.1 2 14.8 2 20.5C4.8 17.7 7.7 14.9 10.6 12C7.7 9.2 4.9 6.3 2 3.5ZM32.1 20.5C32.1 14.8 32.1 9.2 32.1 3.6C29.3 6.4 26.4 9.2 23.5 12.1C26.4 14.9 29.3 17.7 32.1 20.5Z"
