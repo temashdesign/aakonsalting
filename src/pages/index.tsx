@@ -57,7 +57,7 @@ const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
         <HeroTitle />
         <Benefits />
         <Services />
-        <div className="h-40"></div>
+        <Footer />
       </div>
     </ParallaxProvider>
   )

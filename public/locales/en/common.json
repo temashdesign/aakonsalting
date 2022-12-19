@@ -23,17 +23,72 @@
       "button": "More"
     }
   },
+  "footer": {
+    "paragraph": "Everyone wants live on top of a mountain, but full happiness and development going on while you are climbing there.",
+    "title": "Contact us to get the keys for a new life",
+    "bottomtitle": "Our contacts:",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending ...",
+      "already": "Message Already Sent"
+    },
+    "telegram": "Send to telegram"
+  },
   "homeservices": {
     "service-1": {
-      "title-1": "ВНЖ",
-      "title-2": "Черногории",
-      "subtitle": "Оформление",
-      "panel-p": "Подготовка документов и получение/продление ВНЖ по всем возможным вариантам в Черногории, в том числе:",
+      "title-1": "residence permit",
+      "title-2": "in Montenegro",
+      "subtitle": "Registration of a",
+      "panel-p": "Preparation of documents and obtaining / extending of residence permit through all possible options in Montenegro, including:",
       "panel-ul": [
-        "Предоставление почтового адреса для физического лица;",
-        "Предоставление почтового адреса для юридического лица и адреса для фирмы;",
-        "Предоставление бухгалтерский услуг;",
-        "Административное и правовое сопровождение процесса оформления ВНЖ."
+        "Providing a postal address for an individual;",
+        "Providing a postal address for a legal entity and an address for a company;",
+        "Provision of accounting services;",
+        "Administrative and legal supports of obtaining a residence permit process;"
+      ]
+    },
+    "service-2": {
+      "title-1": "business",
+      "title-2": "relocation",
+      "subtitle": "A turn-key",
+      "panel-ul": [
+        "Full complex of registration services arrangement;",
+        "Administrative and legal support;",
+        "Assistance with household issues solving."
+      ]
+    },
+    "service-3": {
+      "title-1": "Documents",
+      "title-2": "translation",
+      "subtitle": "from/to Montenegrin, Serbian",
+      "panel-ul": [
+        "Providing of documents flow translation in Montenegro;",
+        "Providing of certified documents translations;",
+        "Nostrification of education documents."
+      ]
+    },
+    "service-4": {
+      "title-1": "consultations",
+      "subtitle": "Private and corporate",
+      "panel-ul": [
+        "Banking and insurance services issues;",
+        "Issues of purchasing real estate for investment purposes;",
+        "Visa issues;",
+        "Health Care and Education issues for children;",
+        "Transport and rental of residential/office premises issues."
+      ]
+    },
+    "service-5": {
+      "title-1": "real estate",
+      "title-2": "services",
+      "subtitle": "Comprehensive",
+      "panel-ul": [
+        "Assistance with searching and selection of ready-made real estate and land plots;",
+        "Support of real estate deals;",
+        "Assistance with searching and selection of a responsible contractor for installation and construction, commissioning works."
       ]
     }
   }

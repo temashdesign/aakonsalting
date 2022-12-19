@@ -23,17 +23,72 @@
       "button": "Više"
     }
   },
+  "footer": {
+    "paragraph": "Svi žele da žive na vrhu planine, ali sva sreća i sav razvoj se dešavaju dok se tamo penjete.",
+    "title": "Kontaktirajte nas da dobijete ključeve novog života",
+    "bottomtitle": "Naši kontakti:",
+    "form": {
+      "name": "Tvoje Ime",
+      "email": "Email",
+      "message": "Tvoja Poruka",
+      "send": "Pošalji poruku",
+      "sending": "Slanje ...",
+      "already": "Poruka je već poslata"
+    },
+    "telegram": "Pošaljite u telegram"
+  },
   "homeservices": {
     "service-1": {
-      "title-1": "ВНЖ",
-      "title-2": "Черногории",
-      "subtitle": "Оформление",
-      "panel-p": "Подготовка документов и получение/продление ВНЖ по всем возможным вариантам в Черногории, в том числе:",
+      "title-1": "boravišne dozvole",
+      "title-2": "u Crnoj Gori",
+      "subtitle": "Registracija",
+      "panel-p": "Priprema dokumenata i dobijanje/produženje boravišne dozvole za sve moguće opcije u Crnoj Gori, uključujući:",
       "panel-ul": [
-        "Предоставление почтового адреса для физического лица;",
-        "Предоставление почтового адреса для юридического лица и адреса для фирмы;",
-        "Предоставление бухгалтерский услуг;",
-        "Административное и правовое сопровождение процесса оформления ВНЖ."
+        "Pružanje poštanske adrese za pojedinca;",
+        "Pružanje poštanske adrese za pravno lice i adrese za kompaniju;",
+        "Pružanje knjigovodstvenih usluga;",
+        "Administrativno-pravna podrška u procesu dobijanja boravišne dozvole."
+      ]
+    },
+    "service-2": {
+      "title-1": "Poslovna",
+      "title-2": "selidba",
+      "subtitle": "«Puna izgradnja»",
+      "panel-ul": [
+        "Pružanje kompletnih usluga registracije;",
+        "Administrativna i pravna podrška;",
+        "Pomoć u rješavanju ključnih pitanja."
+      ]
+    },
+    "service-3": {
+      "title-1": "Obostrani prevod",
+      "title-2": "dokumenatasa",
+      "subtitle": "crnogorskog, srpskog",
+      "panel-ul": [
+        "Pružanje prevoda toka dokumenata u Crnoj Gori;",
+        "Pružanje ovjerenih prеvoda dokumenata;",
+        "Nostrifikacija obrazovnih dokumenata."
+      ]
+    },
+    "service-4": {
+      "title-1": "konsultacije",
+      "subtitle": "Privatne i korporativne",
+      "panel-ul": [
+        "Pitanja bankarskih i osiguravajućih usluga;",
+        "Pitanja investicionog sticanja nekretnina;",
+        "Pitanja viznog režima;",
+        "Pitanja zdravstvene zaštite i obrazovanja djece;",
+        "Pitanja transporta i zakupa stambenih i poslovnih prostora."
+      ]
+    },
+    "service-5": {
+      "title-1": "vezi sa",
+      "title-2": "nekretninama",
+      "subtitle": "Sveobuhvatne usluge u",
+      "panel-ul": [
+        "Pomoć u traženju i odabiru gotovih nekretnina i zemljišnih parcela;",
+        "Podrška u transakcijama nekretnina;",
+        "Pomoć u traženju i izboru odgovornog izvođača za montažne i građevinske radove i puštanje u rad."
       ]
     }
   }

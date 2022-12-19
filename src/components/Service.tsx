@@ -1,5 +1,5 @@
 import type { FC } from 'react'
-import { useEffect } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import clsx from 'clsx'
 import { Disclosure, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
@@ -37,7 +37,7 @@ export const Service: FC<Props> = ({
   // Media query for parallax
   const isSmall = useMediaQuery('(max-width: 1024px)')
   // Content parallax
-  const contentYOffset = isSmall ? 0 : 5
+  const contentYOffset = isSmall ? 0 : 4
 
   const ctrls = useAnimation()
 
@@ -132,7 +132,7 @@ export const Service: FC<Props> = ({
                   variants={lineAnimation}
                   className="line-item absolute top-0 left-0 hidden w-[1px] bg-ak-darkblue lg:block"
                 ></Line>
-                <Parallax speed={3}>
+                <Parallax speed={2}>
                   <div className="flex flex-col lg:mt-8">
                     <AnimatedTitle
                       text={subtitle}
@@ -144,11 +144,11 @@ export const Service: FC<Props> = ({
                       )}
                     />
                     <AnimatedTitle
-                      className="service-title font-serif text-3xl font-black uppercase text-ak-darkblue md:text-4xl lg:text-5xl lg:leading-[1.1]"
+                      className="service-title font-serif text-2xl font-black uppercase text-ak-darkblue md:text-4xl lg:text-5xl lg:leading-[1.1]"
                       text={title}
                     />
                   </div>
-                  <Disclosure.Button className="mt-8 mb-4 flex justify-between gap-2 rounded-full bg-ak-gold px-5 py-4 text-left text-sm font-bold text-white transition duration-200 hover:bg-ak-darkblue md:px-8 md:py-5">
+                  <Disclosure.Button className="mt-3 mb-4 flex justify-between gap-2 rounded-full bg-ak-gold px-5 py-4 text-left text-sm font-bold text-white transition duration-200 hover:bg-ak-darkblue md:mt-8 md:px-8 md:py-5">
                     <span className=" ">
                       {[t('hservicessection.services.button')]}
                     </span>
