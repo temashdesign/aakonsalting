@@ -44,7 +44,7 @@ export const Footer: FC = () => {
 
     // Getform.io API
 
-    fetch('https://getform.io/f/e526c327-9a4e-4a77-aa76-5a828a087e6d', {
+    fetch('https://getform.io/f/0b565f15-a138-4147-b966-42efb2ac3a0d', {
       method: 'POST',
       body: formData,
     })
