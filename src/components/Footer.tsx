@@ -300,7 +300,7 @@ export const Footer: FC = () => {
                   </svg>
 
                   <Link
-                    href="https://telegram.me/aakonsalting"
+                    href="https://t.me/aakonsalting"
                     className="text-xl font-bold text-ak-blue underline transition duration-200 hover:text-ak-darkblue hover:no-underline md:text-2xl"
                   >
                     {t('footer.telegram')}
